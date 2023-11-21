@@ -73,7 +73,7 @@ Los usuarios deberían poder:
 ### Links
 
 - [Solucion](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
-- [Github]()
+- [Github](https://github.com/Salando50/ResultsSummaryComponent)
 
 ### Recursos Utiles
 
