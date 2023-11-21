@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Salando">
+  <link rel="stylesheet" href="/dist/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Results summary component</title>
+</head>
+
+<body class="flex flex-col justify-center items-center desktop:h-screen desktop:flex-row">
+  <article class="flex flex-col gap-8 font-hanken-grotes text-lg desktop:flex-row desktop:shadow-2xl desktop:shadow-light-lavender rounded-full desktop:gap-4">
+    <header
+      class="flex flex-col items-center justify-around bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-3xl text-light-lavender desktop:rounded-3xl py-4 gap-2 desktop:h-[500px] desktop:p-0 desktop:w-1/2">
+      <h1 class="desktop:text-2xl">Your Result</h1>
+      <div
+        class="flex flex-col items-center justify-center text-white bg-gradient-to-t from-persian-blue to-violet-blue rounded-full h-40 w-40">
+        <span class="font-bold text-5xl">76</span>
+        <span class="text-light-lavender">of 100</span>
+      </div>
+      <div class="flex flex-col items-center gap-4 px-6">
+        <h2 class="text-white text-2xl font-semibold desktop:text-3xl">Great</h2>
+        <p class="text-center">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </header>
+    <section class="flex flex-col gap-6 bg-white h-full px-6 desktop:h-[500px] desktop:justify-center desktop:w-1/2">
+      <h3 class="font-semibold desktop:text-2xl">Summary</h3>
+      <div class="flex w-full justify-between items-center bg-light-red-alpha rounded-lg p-3">
+        <div class="flex gap-4">
+          <img src="/assets/images/icon-reaction.svg" alt="icon reaction">
+          <h4 class="text-light-red font-semibold">Reaction</h4>
+        </div>
+        <p class="flex gap-2 font-semibold text-light-lavender">
+          <span class="text-black">54</span>
+          <span class="">/</span>
+          <span class="">100</span>
+        </p>
+      </div>
+      <div class="flex w-full justify-between items-center bg-orange-yellow-alpha h-12 rounded-lg p-3">
+        <div class="flex gap-4">
+          <img src="/assets/images/icon-memory.svg" alt="icon memory">
+          <h4 class="text-orange-yellow font-semibold">Memory</h4>
+        </div>
+        <p class="flex gap-2 font-semibold text-light-lavender">
+          <span class="text-black">46</span>
+          <span class="">/</span>
+          <span class="">100</span>
+        </p>
+      </div>
+      <div class="flex w-full justify-between items-center bg-green-teal-alpha h-12 rounded-lg p-3">
+        <div class="flex gap-4">
+          <img src="/assets/images/icon-verbal.svg" alt="icon verbal">
+          <h4 class="text-green-teal font-semibold">Verbal</h4>
+        </div>
+        <p class="flex gap-2 font-semibold text-light-lavender">
+          <span class="text-black">97</span>
+          <span class="">/</span>
+          <span class="">100</span>
+        </p>
+      </div>
+      <div class="flex w-full justify-between items-center bg-cobalt-blue-alpha h-12 rounded-lg p-3">
+        <div class="flex gap-4">
+          <img src="/assets/images/icon-visual.svg" alt="icon visual">
+          <h4 class="text-cobalt-blue font-semibold">Visual</h4>
+        </div>
+        <p class="flex gap-2 font-semibold text-light-lavender">
+          <span class="text-black">91</span>
+          <span class="">/</span>
+          <span class="">100</span>
+        </p>
+      </div>
+      <button class="mx-auto bg-dark-gray-blue text-pale-blue py-3 w-full rounded-3xl hover:bg-light-slate-blue">
+        Continue
+      </button>
+    </section>
+  </article>
+  <p class="text-center py-4 bg-white w-full h-full desktop:hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      class="text-light-lavender">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/salando25" target="_blank" class="text-light-royal-blue">Saúl</a>.
+  </p>
+</body>
+</html>
