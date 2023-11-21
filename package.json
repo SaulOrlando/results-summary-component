@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "pnpm dlx tailwindcss -i ./src/css/style.css -o ./dist/style.css --watch"
   },
-  "version": "1.0.0",
+  "version": "1.0.3",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
