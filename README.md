@@ -1,6 +1,6 @@
 # Solución de Frontend Mentor - Results summary component
 
-En este proyecto, desarrollé el componente "[Results summary component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)" de Frontend Mentor usando TailwindCSS para practicar el uso de esta biblioteca.
+En este proyecto, desarrollé el componente "Results summary component" de Frontend Mentor usando TailwindCSS para practicar el uso de esta biblioteca.
 
 ## Mi proceso
 
@@ -69,11 +69,6 @@ Los usuarios deberían poder:
 1440px
 
 ![desktop](./desktop.png)
-
-### Links
-
-- [Solucion](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
-- [Github](https://github.com/Salando50/ResultsSummaryComponent)
 
 ### Recursos Utiles
 
