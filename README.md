@@ -41,9 +41,7 @@ Tengo que seguir aprendiendo sobre "*Responsive Design*" y "*Tailwind CSS*"
     - [Screenshots](#screenshots)
       - [Movil](#movil)
       - [Desktop](#desktop)
-    - [Links](#links)
     - [Recursos Utiles](#recursos-utiles)
-  - [Autor](#autor)
 
 ## Resumen
 
@@ -74,8 +72,3 @@ Los usuarios deberían poder:
 
 - [tailwindcss](https://tailwindcss.com/) - Documentación oficial de Tailwindcss.
 - [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Este artículo me ayudó mucho a comprender mejor flexbox, muy útil para los que le cuesta Flexbox como a mí.
-
-## Autor
-
-- [Frontend Mentor](https://www.frontendmentor.io/profile/Salando50)
-- [Github](https://github.com/Salando50?tab=repositories)
